@@ -7,25 +7,7 @@ function PortfolioTitle(){
           </h4>
         );
 }
-class AuthorName extends React.Component{
-    constructor(test){
-        super(test)
-            this.state={
-                author:"srinivas peddiam"
-            }
-    }
-    changename(){
-        console.log("clickcked")
-    }
-    render(){
-        return (
-            <div>
-                Name {this.state.author}
-                <button onClick={this.changename}>clck</button>    
-            </div>
-        )
-    }
-}
+
 function Test(){
     var std ={name:"hair",age:12}
     return (
@@ -48,7 +30,6 @@ class Welcome extends React.Component {
  
 const Portfolio = () => (
     <div>
-        <b> Author name is <AuthorName /></b>
         <Test />    
         <StundetList />
         <PortfolioTitle />
