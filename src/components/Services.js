@@ -16,12 +16,12 @@ class ServiceList extends React.Component{
 const Services = () => (
     <div>
         <ServiceTitle />
-        <ServiceList  name='car service'/>
-        <ServiceList  name='bus service'/>
-        <ServiceList  name='plain service'/>
-        <ServiceList  name='motor cycle service'/>
-        <ServiceList  name='cycle service'/>
-        <ServiceList  name='other service'/>
+        <ServiceList  name='service_1'/>
+        <ServiceList  name='service_2'/>
+        <ServiceList  name='service_3'/>
+        <ServiceList  name='service_4'/>
+        <ServiceList  name='service_5'/>
+        <ServiceList  name='service_6'/>
     </div>
 )
 
